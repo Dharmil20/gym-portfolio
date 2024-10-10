@@ -22,3 +22,62 @@ body {
     width: 100%;
     background-color: #151827;
 }
+
+/*NavBar Style*/
+nav{
+    background-color: #0B0B0B;
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    /* padding-top: 2rem; */
+}
+
+#logo{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    /* padding-left: 2rem; */
+    gap: 1rem;
+}
+#logo i{
+    color: white;
+    background-color: black;
+    size: rem;
+}
+
+#links{
+    height: inherit;
+    width: 50%;
+}
+#links ul{
+    height: inherit;
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    justify-items: right;
+    align-items: center;
+}
+
+#links ul li{
+    margin-left: 3rem;
+
+}
+
+#sign_up_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+}
+
+#sign_up_div button{
+    width: 7rem;
+    height: 2rem;
+    color: white;
+    font-weight: 100;
+    font-size: 1rem;
+    background-color: rgb(227, 94, 94);
+    border-radius: 7px;
+    border-style: none;
+}
