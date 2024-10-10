@@ -13,7 +13,12 @@ body {
 }
 
 #page1{
-    height: 100vh;
-    width: 100vw;
+    height: 100vw;
+    width: 100%;
     background-color: #0B0B0B;
+}
+#page2{
+    height: 100vw;
+    width: 100%;
+    background-color: #151827;
 }
