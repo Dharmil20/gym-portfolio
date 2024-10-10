@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gym Portfolio</title>
     <link href="https://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <!-- NavBar  -->
     <nav id = "nav">
         <div id="logo">
             <i class="fa-solid fa-dumbbell"></i>
@@ -18,9 +21,9 @@
         </div>
         <div id="links">
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">About Us</a></li>
+                <li><a href="#page1">Home</a></li>
+                <li><a href="#our_programs">Services</a></li>
+                <li><a href="#page3">About Us</a></li>
                 <li><a href="">Pricing</a></li>
                 <li><a href="">Blog</a></li>
             </ul>
@@ -29,6 +32,8 @@
             <button>Sign up</button>
         </div>
     </nav>
+    
+    <!-- Hero  -->
     <div id="page1">
         <div id="hero">
             <div id="hero-title">
@@ -56,8 +61,78 @@
             <img src="./images/trainer-img.png" alt="trainer-img">
         </div>
     </div>
-    <div id="page2"></div>
-    <div id="page3"></div>
+    
+    <!-- Our Programs -->
+    <div id="our_programs">
+        <div id="our_program_title">
+            <p>Our Programs</p>
+            <h2>Build your best body</h2>
+        </div>
+        <div id="our_program_info_cards">
+            <div class="card" >
+                <img src="./images/trainer-img-1.jpg" alt="trainer-img-1" >
+                <div id="card_info">
+                    <h2>Lorem, ipsum.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi praesentium aut expedita nobis quibusdam, possimus nam inventore vero. Aspernatur, esse.</p>
+                    <button>Know More</button>
+                </div>
+                
+            </div>
+            <div class="card" >
+                <img src="./images/trainer-img-1.jpg" alt="trainer-img-1" >
+                <div id="card_info">
+                    <h2>Lorem, ipsum.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi praesentium aut expedita nobis quibusdam, possimus nam inventore vero. Aspernatur, esse.</p>
+                    <button>Know More</button>
+                </div>
+                
+            </div>
+            <div class="card" >
+                <img src="./images/trainer-img-1.jpg" alt="trainer-img-1" >
+                <div id="card_info">
+                    <h2>Lorem, ipsum.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi praesentium aut expedita nobis quibusdam, possimus nam inventore vero. Aspernatur, esse.</p>
+                    <button>Know More</button>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div id="page3">
+        <div id="page3-img">
+            <img src="./images/trainer-img-2.png" alt="trainer-img-2">
+        </div>
+        <div id="page3-contents">
+            <h4>Our Unique Points</h4>
+            <h1>Fitness is the best place for you</h1>
+            <p>As a gym trainer, I strive to provide a distinctive and effective fitness experience through these four
+                key points:</p>
+            <div id="page3-points">
+                <!-- <ul> -->
+                    <div id="pointers">
+                        <li><h4>01. Holistic Wellness Approach</h4></li>
+                        <p> I focus on more than just workouts—my plans integrate fitness, nutrition, recovery, and mental
+                            well-being, helping you build sustainable habits for a balanced, healthier life.</p>
+                    </div>
+                    <div id="pointers">
+                        <li><h4>02. Tech-Driven Progress Tracking</h4></li>
+                        <p>Using fitness tech and data analytics, I track your performance and progress in real-time,
+                            providing personalized insights to optimize your workouts and keep you on track.</p>
+                    </div>
+                    <div id="pointers">
+                        <li><h4>03. Specialized Training</h4></li>
+                        <p>I offer customized programs for unique needs, such as injury recovery, sport-specific
+                            conditioning, or pre/post-natal fitness, ensuring a tailored, personal experience.</p>
+                    </div>
+                    <div id="pointers">
+                        <li><h4>04. Functional Fitness for Longevity</h4></li>
+                            <p>I emphasize functional movement to enhance your mobility, strength, and injury prevention,
+                                helping you stay fit and active for life—not just the short term.</p>
+                    </div>
+                <!-- </ul> -->
+            </div>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 
