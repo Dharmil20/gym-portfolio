@@ -24,6 +24,8 @@ body {
 
 #page1 img {
     height: 65vh;
+    filter: drop-shadow(0 0 10rem rgb(242, 242, 242));
+    backdrop-filter: blur(10px);
 }
 
 #hero {
